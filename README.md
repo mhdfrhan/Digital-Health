@@ -12,4 +12,4 @@ Buka file index.html, lalu buka menggunakan extension live server, atau klik dua
 
 ## Demo
 
-Website dapat di akses di <a href="https://digihealth.vercel.app/">Digital Health</a>
+Website dapat di akses di <a target="_blank" href="https://digihealth.vercel.app/">Digital Health</a>
