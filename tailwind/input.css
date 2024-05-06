@@ -2,50 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-html,body {
-	@apply  scroll-smooth
+html,
+body {
+  @apply scroll-smooth;
 }
 
 body {
-	@apply antialiased font-generalSans font-medium bg-[#020202] text-neutral-300
+  @apply antialiased font-generalSans font-medium bg-[#020202] text-neutral-300;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	@apply font-satoshi
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-satoshi;
 }
 
 .slider-container {
-	animation: sliderTestimonials 15s linear infinite;
+  animation: sliderTestimonials 15s linear infinite;
 }
 
 .slider-container.slide-2 {
-	animation: sliderTestimonials2 15s linear infinite;
+  animation: sliderTestimonials2 15s linear infinite;
 }
 
 .form-input {
-	@apply w-full border border-neutral-800 hover:border-indigo-600 duration-300 bg-[#101010] py-3 px-4 placeholder:text-neutral-500  placeholder:font-bold placeholder:font-satoshi text-sm focus:ring-indigo-500 focus:border-indigo-500 focus:outline-0
+  @apply w-full border border-neutral-800 hover:border-indigo-600 duration-300 bg-[#101010] py-3 px-4 placeholder:text-neutral-500  placeholder:font-bold placeholder:font-satoshi text-sm focus:ring-indigo-500 focus:border-indigo-500 focus:outline-0;
 }
 
 @keyframes sliderTestimonials {
-	0% {
-		transform: translateY(0);
-	}
-	50% {
-		transform: translateY(-10%);
-	}
-	100% {
-		transform: translateY(0);
-	}
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @keyframes sliderTestimonials2 {
-	0% {
-		transform: translateY(-10%);
-	}
-	50% {
-		transform: translateY(0);
-	}
-	100% {
-		transform: translateY(-10%);
-	}
+  0% {
+    transform: translateY(-10%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10%);
+  }
 }
